@@ -1,0 +1,27 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual Environment
+myenv/
+.Python
+bin/
+include/
+lib/
+pip-selfcheck.json
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/static/
+/media/
+
+# local settings
+local_settings.py
